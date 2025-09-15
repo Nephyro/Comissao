@@ -50,12 +50,12 @@ public class Vendedor {
         System.out.println("------------------------------------");
 
         double retornar;
-        Scanner leitor2 = new Scanner(System.in);
+        Scanner leitor = new Scanner(System.in);
         System.out.println("  ");
         System.out.println("---------------------------------------");
         System.out.println("Calcular a comissão de outro vendedor?");
         System.out.print("Digite 1 para sim e 0 para sair: ");
-        retornar = leitor2.nextDouble();
+        retornar = leitor.nextDouble();
         System.out.println("---------------------------------------");
         System.out.println("  ");
 
