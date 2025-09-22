@@ -39,7 +39,7 @@ public class Vendedor {
         exibirResultados();
     }
 
-    public void exibirResultados(){
+    public void exibirResultados() {
         System.out.println("------------------------------------");
         System.out.println("** R E S U L T A D O S **");
         System.out.println("------------------------------------");
@@ -48,6 +48,12 @@ public class Vendedor {
         System.out.println("PERCENTUAL DA COMISSÃO: " + percetualDaComissao + "%");
         System.out.println("VALOR DA COMISSÃO PAGA: R$" + valorDaComissaoEmReais);
         System.out.println("------------------------------------");
+
+        continuidade();
+
+    }
+
+    public void continuidade() {
 
         double retornar;
         Scanner leitor = new Scanner(System.in);
@@ -59,7 +65,7 @@ public class Vendedor {
         System.out.println("---------------------------------------");
         System.out.println("  ");
 
-        if (retornar == 1){
+        if (retornar == 1) {
             obterDados();
         } else {
             System.out.println("Bye!");
